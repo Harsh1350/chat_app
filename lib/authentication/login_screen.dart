@@ -17,15 +17,15 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _phoneNumberController = TextEditingController();
 
   Country selectedCountry = Country(
-    phoneCode: '26',
-    countryCode: 'ZM',
+    phoneCode: '91',
+    countryCode: 'IND',
     e164Sc: 0,
     geographic: true,
     level: 1,
-    name: 'Zambia',
-    example: 'Zambia',
-    displayName: 'Zambia',
-    displayNameNoCountryCode: 'ZM',
+    name: 'India',
+    example: 'India',
+    displayName: 'India',
+    displayNameNoCountryCode: 'IND', 
     e164Key: '',
   );
 
@@ -47,14 +47,14 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         child: Column(
           children: [
-            const SizedBox(height: 50),
+            //const SizedBox(height: 50),
             SizedBox(
-              height: 200,
-              width: 200,
+              height: 400,
+              width: 400,
               child: Lottie.asset(AssetsMenager.chatBubble),
             ),
             Text(
-              'Flutter Chat Pro',
+              'Rankerz App',
               style: GoogleFonts.openSans(
                 fontSize: 28,
                 fontWeight: FontWeight.w500,

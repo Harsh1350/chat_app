@@ -103,7 +103,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
           },
         ),
         centerTitle: true,
-        title: const Text('User Information'),
+        title: const Text('Student Information'),
       ),
       body: Center(
           child: Padding(

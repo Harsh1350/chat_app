@@ -69,22 +69,22 @@ class _OTPScreenState extends State<OTPScreen> {
                 ),
                 const SizedBox(height: 50),
                 Text(
-                  'Enter the 6-digit code sent the number',
+                  'Enter the OTP',
                   textAlign: TextAlign.center,
                   style: GoogleFonts.openSans(
                     fontSize: 18,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                const SizedBox(height: 10),
-                Text(
-                  phoneNumber,
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.openSans(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
+                // const SizedBox(height: 10),
+                // Text(
+                //   phoneNumber,
+                //   textAlign: TextAlign.center,
+                //   style: GoogleFonts.openSans(
+                //     fontSize: 18,
+                //     fontWeight: FontWeight.w500,
+                //   ),
+                // ),
                 const SizedBox(height: 30),
                 SizedBox(
                   height: 68,
@@ -158,7 +158,7 @@ class _OTPScreenState extends State<OTPScreen> {
                     : TextButton(
                         onPressed: () {
                           // TODO resend otp code
-                        },
+                        }, 
                         child: Text(
                           'Resend Code',
                           style: GoogleFonts.openSans(

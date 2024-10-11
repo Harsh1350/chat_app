@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Chat Pro',
+        title: 'Rankerz App',
         theme: theme,
         darkTheme: darkTheme,
         initialRoute: Constants.landingScreen,
